@@ -1,5 +1,5 @@
 {
-  "homepage": "https://MOHAMMEEID96.github.io/ImageStore",
+  "homepage": "https://MOHAMMEEID96.github.io/images-get",
   "name": "imagestore",
   "version": "0.1.0",
   "private": true,
@@ -13,10 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" ,
-
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
